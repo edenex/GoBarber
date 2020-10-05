@@ -1,0 +1,39 @@
+Estruturas branchs do githbub GoBarber
+
+> Branch master
+    > GoBarber > backend
+    > GoBarber > frontend
+    > GoBarber > mobile
+> Branch user-user
+    > GoBarber > backend
+        > User.js
+        > UserController.js
+        > SessionController.js
+> Branch user-file
+    > GoBarber > backend
+        > FileController.js
+		> tmp/uploads
+		> multer.js (src > config)
+> Branch user-auth
+	> GoBarber > backend
+		> auth.js (src > config)
+		> auth.js (src > app > middlewares)
+> Branch appointments
+    > GoBarber > backend
+        > Appointment.js
+        > AppointmentController.js
+> Branch provider
+    > GoBarber > backend
+        > Provider.js
+        > ProviderController.js
+> Branch schedule
+    > GoBarber > backend
+        > Schedule.js
+        > ScheduleController.js
+> Branch database
+	> GoBarber > backend
+		> database.js
+> Branch database-migration
+	> GoBarber > backend > src > database
+		> Migrations (todas) (src > database > migration)
+		> index.js
